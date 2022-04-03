@@ -1,2 +1,3 @@
 # APPrendo
-aprendendo do zero
+aprender do zero
+
