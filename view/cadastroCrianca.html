@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Cadastro nova crianca</title>
+    </head>
+    <body>
+        <form method="POST" action="cadastrocrianca">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome: ">
+            </div>
+            <div>
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cep" name="cep" placeholder="Digite CEP: ">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="Digite o E-mail:">
+            </div>
+            <div>
+                <label for="idunico">IDunico:</label>
+                <input type="text" id="idunico" name="idunico" placeholder="Digite o seu IDunico aqui.">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite a Senha: ">
+            </div>
+            <div>
+                <label for="date">Data Nascimento:</label>
+                <input type="date" id="date" name="datanascimento">
+            </div>
+            <div>
+                <label for="serie">Serie:</label>
+                <input type="text" id="serie" name="serie" placeholder="Digite a serie da crianca: ">
+            </div>
+            <input type="submit" name="enviar" value="Cadastrar"> <input type="reset" name="limpar" value="Limpar">
+        </form>
+        <br>
+        <a href="home">Página Inicial</a>
+    </body>
+</html>
