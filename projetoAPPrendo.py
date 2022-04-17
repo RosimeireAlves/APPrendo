@@ -29,19 +29,19 @@ class Pessoas:
         if self.pesquisa(pessoa) == -1:
             self.pessoas.append(pessoa)
 
-    def alterar(self, pessoas):
-        for pessoa in self.pessoas:
+    def alterar(self, pessoa):
+        for pessoa in self.pessoa:
             print(pessoa.nome, pessoa.cidade, pessoa.CEP, pessoa.data_nascimento)
 
-    def excluir(self, pessoas):
-        for pessoa in self.pessoas:
+    def excluir(self, pessoa):
+        for pessoa in self.pessoa:
             if pessoa.nome == nome:
                 self.pessoas.remove(pessoa)
 
     def pesquisa(self, pessoa):
         self.pesquisa(pessoa)
         try:
-            return self.pessoas.index(pessoa)
+            return self.pessoa.index(pessoa)
         except ValueError:
             return -1
 
